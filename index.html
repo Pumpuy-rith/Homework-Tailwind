@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tailwind</title>
+  </head>
+  <body class="bg-gray-100">
+    <header class="bg-white">
+      <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 items-center justify-between">
+          <div class="flex-1 md:flex md:items-center md:gap-12">
+            <a class="block text-teal-600" href="#">
+              <span class="sr-only">Home</span>
+              <img
+                class="h-10"
+                viewBox="10 10 30 30"
+                fill="none"
+                src="./image/logo.png"
+                alt="logo"
+              />
+            </a>
+          </div>
+
+          <div class="md:flex md:items-center md:gap-12">
+            <nav aria-label="Global" class="hidden md:block">
+              <ul class="flex items-center gap-6 text-sm">
+                <li>
+                  <a
+                    class="text-gray-500 transition hover:text-gray-500/75"
+                    href="#"
+                  >
+                    វគ្គសិក្សា
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-gray-500 transition hover:text-gray-500/75"
+                    href="#"
+                  >
+                    ប្លុក
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-gray-500 transition hover:text-gray-500/75"
+                    href="#"
+                  >
+                    វេទិការ
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-gray-500 transition hover:text-gray-500/75"
+                    href="#"
+                  >
+                    អំពីពួកយើង
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-gray-500 transition hover:text-gray-500/75"
+                    href="#"
+                  >
+                    ទាញយកកម្មវិធី
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-gray-500 transition hover:text-gray-500/75"
+                    href="#"
+                  >
+                    ចំណាត់ថ្នាក់
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="flex items-center gap-4">
+              <div class="sm:flex sm:gap-4">
+                <a
+                  class="rounded-md bg-rose-700 px-5 py-2.5 text-sm font-medium text-white shadow"
+                  href="#"
+                >
+                  ចូលប្រើ
+                </a>
+
+                <div class="hidden sm:flex">
+                  <a
+                    class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-rose-700"
+                    href="#"
+                  >
+                    បង្កើតគណនី
+                  </a>
+                </div>
+              </div>
+
+              <div class="block md:hidden">
+                <button
+                  class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="bg-gray-100">
+        <div
+          class="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"
+        ></div>
+
+        <div
+          class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+        >
+          <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+            <h1 class="text-3xl font-extrabold sm:text-5xl text-rose-700">
+              Developers Cambodia
+            </h1>
+
+            <p class="mt-4 max-w-lg sm:text-xl/relaxed">
+              គឺជាគេហទំព័រដែលផ្តល់វគ្គបណ្តុះបណ្តាល
+              និង​ការបង្រៀនតាមអ៊ិនធឺណិតលើប្រធានបទជាច្រើន រួមទាំងអាជីវកម្ម
+              បច្ចេកវិទ្យា ការរចនា ។ល។
+              ពិសេសជាងនេះទៅទៀតយើងក៏មានផ្តល់ជូននូវវិញ្ញាបនបត្រដល់សិស្សានុសិស្សបន្ទាប់ពីបញ្ចប់វគ្គសិក្សាណានីមួយៗ។
+            </p>
+
+            <div class="mt-8 flex flex-wrap gap-4 text-center">
+              <a
+                href="#"
+                class="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+              >
+                ក្លាយជាគ្រូបង្រៀន -->
+              </a>
+
+              <a
+                href="#"
+                class="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
+              >
+                ក្លាយជាអ្នកសរសេរអត្ថបទ
+              </a>
+            </div>
+          </div>
+          <div class="lg:w-1/2 flex justify-center mb-8 lg:mb-0">
+            <img src="./image/tablet.png" alt="tablet" class="w-3/4 max-w-lg" />
+          </div>
+        </div>
+      </section>
+      <br />
+      <section>
+        <div
+          class="max-w-screen-lg mx-auto grid grid-cols-1 sm-grid-cols md:grid-cols-3 lg:grid-cols-4 gap-5"
+        >
+          <div class="h-32 rounded-lg bg-gray-200"></div>
+          <div class="h-32 rounded-lg bg-gray-200"></div>
+          <div class="h-32 rounded-lg bg-gray-200"></div>
+          <div class="h-32 rounded-lg bg-gray-200"></div>
+        </div>
+        <br />
+        <div
+          class="max-w-screen-lg mx-auto grid grid-cols-1 sm-grid-cols md:grid-cols-3 lg:grid-cols-4 gap-5"
+        >
+          <div class="h-32 rounded-lg bg-gray-200"></div>
+          <div class="h-32 rounded-lg bg-gray-200"></div>
+          <div class="h-32 rounded-lg bg-gray-200"></div>
+          <div class="h-32 rounded-lg bg-gray-200"></div>
+        </div>
+      </section>
+      <br />
+      <!--card-->
+      <section
+        class="max-w-screen-lg mx-auto grid grid-cols-1 sm-grid-cols md:grid-cols-3 lg:grid-cols-4 gap-5"
+      >
+        <article
+          class="overflow-hidden rounded-lg shadow transition hover:shadow-lg"
+        >
+          <img
+            alt=""
+            src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            class="h-56 w-full object-cover"
+          />
+
+          <div class="bg-white p-4 sm:p-6">
+            <time datetime="2022-10-10" class="block text-xs text-gray-500">
+              10th Oct 2022
+            </time>
+
+            <a href="#">
+              <h3 class="mt-0.5 text-lg text-gray-900">
+                How to position your furniture for positivity
+              </h3>
+            </a>
+
+            <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Recusandae dolores, possimus pariatur animi temporibus nesciunt
+              praesentium dolore sed nulla ipsum eveniet corporis quidem,
+              mollitia itaque minus soluta, voluptates neque explicabo tempora
+              nisi culpa eius atque dignissimos. Molestias explicabo corporis
+              voluptatem?
+            </p>
+          </div>
+        </article>
+        <article
+          class="overflow-hidden rounded-lg shadow transition hover:shadow-lg"
+        >
+          <img
+            alt=""
+            src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            class="h-56 w-full object-cover"
+          />
+
+          <div class="bg-white p-4 sm:p-6">
+            <time datetime="2022-10-10" class="block text-xs text-gray-500">
+              10th Oct 2022
+            </time>
+
+            <a href="#">
+              <h3 class="mt-0.5 text-lg text-gray-900">
+                How to position your furniture for positivity
+              </h3>
+            </a>
+
+            <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Recusandae dolores, possimus pariatur animi temporibus nesciunt
+              praesentium dolore sed nulla ipsum eveniet corporis quidem,
+              mollitia itaque minus soluta, voluptates neque explicabo tempora
+              nisi culpa eius atque dignissimos. Molestias explicabo corporis
+              voluptatem?
+            </p>
+          </div>
+        </article>
+        <article
+          class="overflow-hidden rounded-lg shadow transition hover:shadow-lg"
+        >
+          <img
+            alt=""
+            src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            class="h-56 w-full object-cover"
+          />
+
+          <div class="bg-white p-4 sm:p-6">
+            <time datetime="2022-10-10" class="block text-xs text-gray-500">
+              10th Oct 2022
+            </time>
+
+            <a href="#">
+              <h3 class="mt-0.5 text-lg text-gray-900">
+                How to position your furniture for positivity
+              </h3>
+            </a>
+
+            <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Recusandae dolores, possimus pariatur animi temporibus nesciunt
+              praesentium dolore sed nulla ipsum eveniet corporis quidem,
+              mollitia itaque minus soluta, voluptates neque explicabo tempora
+              nisi culpa eius atque dignissimos. Molestias explicabo corporis
+              voluptatem?
+            </p>
+          </div>
+        </article>
+        <article
+          class="overflow-hidden rounded-lg shadow transition hover:shadow-lg"
+        >
+          <img
+            alt=""
+            src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            class="h-56 w-full object-cover"
+          />
+
+          <div class="bg-white p-4 sm:p-6">
+            <time datetime="2022-10-10" class="block text-xs text-gray-500">
+              10th Oct 2022
+            </time>
+
+            <a href="#">
+              <h3 class="mt-0.5 text-lg text-gray-900">
+                How to position your furniture for positivity
+              </h3>
+            </a>
+
+            <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Recusandae dolores, possimus pariatur animi temporibus nesciunt
+              praesentium dolore sed nulla ipsum eveniet corporis quidem,
+              mollitia itaque minus soluta, voluptates neque explicabo tempora
+              nisi culpa eius atque dignissimos. Molestias explicabo corporis
+              voluptatem?
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
